@@ -118,6 +118,7 @@ cat $DEVICE_FILE                                                         >> $CON
 # Delete previous session log
 rm -f $LOG_FILE
 
+find / -name "EEP.xml" -print
 if ! bashio::config.is_empty 'eep_file'; then
    EEP_FILE="$(bashio::config 'eep_file')"
    if [ -e $EEP_FILE ]; then
