@@ -6,8 +6,6 @@ slug: "ha_enoceanmqtt_aseracorp"
 stage: "experimental"
 init: false
 uart: true
-hassio_api: true
-homeassistant_api: true
 startup: "application"
 services:
   - "mqtt:need"
