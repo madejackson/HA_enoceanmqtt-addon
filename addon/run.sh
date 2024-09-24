@@ -118,18 +118,6 @@ cat $DEVICE_FILE                                                         >> $CON
 # Delete previous session log
 rm -f $LOG_FILE
 
-if ! bashio::config.is_empty 'eep_file'; then
-   EEP_FILE="$(bashio::config 'eep_file')"
-   EEP_FILE_LOCATION=$(find / -name "EEP.xml" -print -quit 2>/dev/null)
-
-   if [ -e $EEP_FILE ]; then
-      bashio::log.green "Installing custom EEP.xml ..."
-      cp -f $EEP_FILE $EEP_FILE_LOCATION
-   else
-      bashio::exit.nok "Custom EEP file not found at location $EEP_FILE"
-   fi
-fi
-
 bashio::log.green "Starting EnOceanMQTT..."
 . /app/venv/bin/activate
 enoceanmqtt $DEBUG_FLAG --logfile $LOG_FILE $CONFIG_FILE
