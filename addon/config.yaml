@@ -1,11 +1,13 @@
-name: "EnOcean MQTT (******* DEPRECATED *******)"
-description: "EnOcean to MQTT bridge for Home Assistant"
-url: "https://github.com/mak-gitdev/HA_enoceanmqtt-addon"
-version: "0.1"
-slug: "ha_enoceanmqtt"
-stage: "deprecated"
+name: "EnOcean MQTT"
+description: "EnOcean to MQTT bridge"
+url: "https://github.com/ChristopheHD/HA_enoceanmqtt-addon"
+version: "0.1.30"
+slug: "ha_enoceanmqtt_aseracorp"
+stage: "experimental"
 init: false
 uart: true
+hassio_api: true
+homeassistant_api: true
 startup: "application"
 services:
   - "mqtt:need"
@@ -19,11 +21,13 @@ arch:
   - i386
 options:
   device_file: ""
-  #mapping_file: ""
+  mapping_file: ""
+  eep_file: ""
   log_file: "/config/enoceanmqtt.log"
   enocean_port: ""
   debug: false
   log_packets: false
+  use_dev_name_in_entity: false
   mqtt_broker: {}
   mqtt_discovery_prefix: "homeassistant"
   mqtt_prefix: "enoceanmqtt"
@@ -31,11 +35,13 @@ options:
   mqtt_keepalive: 60
 schema:
   device_file: "str"
-  #mapping_file: "str?"
+  mapping_file: "str?"
+  eep_file: "str?"
   log_file: "str?"
   enocean_port: "device(subsystem=tty)"
   debug: "bool?"
   log_packets: "bool?"
+  use_dev_name_in_entity: "bool?"
   mqtt_broker:
     host: "str?"
     port: "str?"
