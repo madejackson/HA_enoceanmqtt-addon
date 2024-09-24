@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-ARG BUILD_VERSION
+ARG BUILD_VERSION="head"
 
 # Create Working Directory
 WORKDIR /app
