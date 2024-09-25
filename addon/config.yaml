@@ -3,7 +3,7 @@ description: "EnOcean to MQTT bridge"
 url: "https://github.com/ChristopheHD/HA_enoceanmqtt-addon"
 version: "0.1.30"
 slug: "ha_enoceanmqtt_aseracorp"
-stage: "experimental"
+stage: "stable"
 init: false
 uart: true
 hassio_api: true
