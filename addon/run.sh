@@ -75,8 +75,8 @@ fi
 
 # Device name in entity name
 HA_VERSION="$(bashio::core.version)"
-Year="$(echo ${HA_VERSION//[!0-9.]/} | cut -d '.' -f 1)"
-Month="$(echo ${HA_VERSION//[!0-9.]/} | cut -d '.' -f 2)"
+Year="$(echo "${HA_VERSION//[!0-9.]/}" | cut -d '.' -f 1)"
+Month="$(echo "${HA_VERSION//[!0-9.]/}" | cut -d '.' -f 2)"
 
 if [ "${Year}" -ge 2023 ]; then
   if [ "${Year}" -eq 2023 ]; then
