@@ -59,7 +59,7 @@ See [Usage](https://github.com/aseracorp/HA_enoceanmqtt/wiki/Usage) for more inf
 
 
 ## Issues
-Issues should be reported on the HA\_enoceanmqtt [issue tracker](https://github.com/aseracorp/HA_enoceanmqtt/issues).
+Issues can be reported on the GitHub [issue tracker](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/issues).
 
 
 ## Versions
