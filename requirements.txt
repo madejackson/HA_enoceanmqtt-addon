@@ -1,4 +1,0 @@
-pip
-setuptools
-pyyaml==6.0.1
-tinydb==4.7.1
