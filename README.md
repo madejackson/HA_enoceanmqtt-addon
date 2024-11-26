@@ -12,7 +12,7 @@ HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant
 
 [![](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=core_mosquitto)
 
-2. Click on the below button and then **Add** or go back to the **Add-on store**, click **⋮ → Repositories**, fill in</br>  **`https://github.com/mak-gitdev/HA_enoceanmqtt-addon`** and click **Add → Close**.
+2. Click on the below button and then **Add** or go back to the **Add-on store**, click **⋮ → Repositories**, fill in</br>  **`https://github.com/ChristopheHD/HA_enoceanmqtt-addon`** and click **Add → Close**.
 
 [![](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/ChristopheHD/HA_enoceanmqtt-addon)
 
