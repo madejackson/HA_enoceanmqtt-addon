@@ -1,7 +1,7 @@
 name: "EnOcean MQTT"
 description: "EnOcean to MQTT bridge"
 url: "https://github.com/ChristopheHD/HA_enoceanmqtt-addon"
-version: "0.1.30"
+version: "0.1.31"
 slug: "enoceanmqtt"
 init: false
 uart: true
