@@ -10,9 +10,7 @@ homeassistant_api: true
 services:
   - "mqtt:need"
 map:
-  - type: homeassistant_config
-    read_only: False
-    path: /config/
+  - "config:rw"
 arch:
   - aarch64
   - amd64
