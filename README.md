@@ -25,8 +25,8 @@ HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant
    - Adapt the [`addon/enoceanmqtt.devices.sample`](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/blob/master/addon-dev/enoceanmqtt.devices.sample) and put it to your Home Assistant **/config** directory. You can use the Home Assistant **File Editor**.  
      **Tip**: Your device name can contain `/` e.g. `[lights/livingroom]`. This allows you to group your devices by type when exploring MQTT messages.
    - Indicate the location of this device file under the **device_file** entry.
-   - Leave empty the **mapping_file** entry to use the default mapping file. If you want to use a custom mapping file, indicate the location of your mapping file. This can be useful for people wanting to add support for new devices or customize the existing ones. Refer to this [wiki page](https://github.com/aseracorp/HA_enoceanmqtt/wiki/Examples#using-custom-mappingyaml-andor-eepxml-files) for more details.
-   - Leave empty the **eep_file** entry to use the default EEP.xml file. If you want to use a custom EEP.xml file, indicate the location of your EEP.xml file. This can be useful for people wanting to add support for new devices not yet supported by the Python EnOcean library. Refer to this [wiki page](https://github.com/aseracorp/HA_enoceanmqtt/wiki/Examples#using-custom-mappingyaml-andor-eepxml-files) for more details.
+   - Leave empty the **mapping_file** entry to use the default mapping file. If you want to use a custom mapping file, indicate the location of your mapping file. This can be useful for people wanting to add support for new devices or customize the existing ones. Refer to this [wiki page](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Examples#using-custom-mappingyaml-andor-eepxml-files) for more details.
+   - Leave empty the **eep_file** entry to use the default EEP.xml file. If you want to use a custom EEP.xml file, indicate the location of your EEP.xml file. This can be useful for people wanting to add support for new devices not yet supported by the Python EnOcean library. Refer to this [wiki page](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Examples#using-custom-mappingyaml-andor-eepxml-files) for more details.
    - Indicate your preferred location for the log file under the **log_file** entry. It shall be in your Home Assistant **/config** directory.
    - Select the serial interface of your EnOcean transceiver in the list of detected serial ports. When using yaml configuration, the format is for example:
      ```yaml
@@ -56,7 +56,7 @@ HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant
 
 ## Usage
 
-See [Usage](https://github.com/aseracorp/HA_enoceanmqtt/wiki/Usage) for more information.
+See [Usage](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Usage) for more information.
 
 ## Issues
 
