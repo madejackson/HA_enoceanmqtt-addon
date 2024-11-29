@@ -1,11 +1,11 @@
 <a name="readme-top"></a>
+
 <!--
-*** Thanks for using Document My Project. (https://github.com/luisvent/document_my_project) 
-*** If you have a suggestion that would make this better, please fork  
+*** Thanks for using Document My Project. (https://github.com/luisvent/document_my_project)
+*** If you have a suggestion that would make this better, please fork
 *** the repo and create a pull request or simply open an issue.
 *** Don't forget to give the project a star!
 -->
-
 
 <div align="center">
 
@@ -19,7 +19,6 @@ Easily integrate enOcean protocol using MQTT layer
 
 </div>
 
-
 <div align="center"><h4><a href="#-about-the-project">ℹ️ About the Project</a> • <a href="#-stack-tech">🛠 Stack Tech</a> • <a href="#-setup">⚙ ️Setup</a> • <a href="#-contributing">👏🏻 Contributing</a> • <a href="#-about-the-author">👨🏻‍ About the Author</a></h4></div>
 
 <!-- TABLE_CONTENT_PLACEHOLDER -->
@@ -29,12 +28,10 @@ Easily integrate enOcean protocol using MQTT layer
 This is the [Home Assistant](https://www.home-assistant.io/) addon for [HA_enoceanmqtt](https://github.com/aseracorp/HA_enoceanmqtt).  
 HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant through MQTT.
 
-
-
 ## 🛠 Stack Tech
+
 <img src="https://raw.githubusercontent.com/mak-gitdev/HA_enoceanmqtt-addon/master/.github/images/install_addon.svg" alt="Install Addon" width="75%"/>
 <br/>
-
 
 ## ⚙ ️Setup
 
@@ -53,8 +50,6 @@ To install this project, follow these steps:
 [![](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/ChristopheHD/HA_enoceanmqtt-addon)
 
 3. Click on the addon and press **Install** and wait until the addon is installed.
-
-
 
 #### Configuration
 
@@ -92,8 +87,6 @@ To install this project, follow these steps:
 1. Start the addon by going to **Info** and click **Start**
 1. Wait till HA_enoceanmqtt starts and press **Log** to verify HA_enoceanmqtt started correctly.
 
-
-
 ## 👏🏻 Contributing
 
 We welcome contributions from the community! If you would like to contribute to this project, please follow the guidelines below.
@@ -115,5 +108,5 @@ We welcome contributions from the community! If you would like to contribute to 
 For more information on how to contribute, please visit [Contribution Guidelines](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Contributing).
 
 ---
- <div align="center">Built with ❤️ with <a href="https://github.com/luisvent/document_my_project">Document My Project</a></div>
 
+ <div align="center">Built with ❤️ with <a href="https://github.com/luisvent/document_my_project">Document My Project</a></div>
