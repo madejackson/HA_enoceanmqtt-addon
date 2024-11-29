@@ -1,12 +1,48 @@
-# Home Assistant Addon for HA_enoceanmqtt
+<a name="readme-top"></a>
+<!--
+*** Thanks for using Document My Project. (https://github.com/luisvent/document_my_project) 
+*** If you have a suggestion that would make this better, please fork  
+*** the repo and create a pull request or simply open an issue.
+*** Don't forget to give the project a star!
+-->
 
-This is the [Home Assistant](https://www.home-assistant.io/) addon for the fork [HA_enoceanmqtt](https://github.com/aseracorp/HA_enoceanmqtt).  
+
+<div align="center">
+
+<a href="" target="_blank" title="Go to  website">
+<img width="196px" alt="Home Assistant enOcean addon" src="https://github.com/ChristopheHD/HA_enoceanmqtt-addon/blob/master/addon/logo.png?raw=true">
+</a>
+
+# Home Assistant enOcean addon
+
+Easily integrate enOcean protocol using MQTT layer
+
+</div>
+
+
+<div align="center"><h4><a href="#-about-the-project">ℹ️ About the Project</a> • <a href="#-stack-tech">🛠 Stack Tech</a> • <a href="#-setup">⚙ ️Setup</a> • <a href="#-contributing">👏🏻 Contributing</a> • <a href="#-about-the-author">👨🏻‍ About the Author</a></h4></div>
+
+<!-- TABLE_CONTENT_PLACEHOLDER -->
+
+## ℹ️ About the Project
+
+This is the [Home Assistant](https://www.home-assistant.io/) addon for [HA_enoceanmqtt](https://github.com/aseracorp/HA_enoceanmqtt).  
 HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant through MQTT.
 
+
+
+## 🛠 Stack Tech
 <img src="https://raw.githubusercontent.com/mak-gitdev/HA_enoceanmqtt-addon/master/.github/images/install_addon.svg" alt="Install Addon" width="75%"/>
 <br/>
 
-## Installation
+
+## ⚙ ️Setup
+
+### Installation
+
+To install this project, follow these steps:
+
+#### Installation
 
 1. If you don't have a MQTT broker yet, click on the below button and then **Install** or in Home Assistant go to **Settings → Add-ons → Add-on store** and install the **Mosquitto broker** addon.
 
@@ -18,7 +54,9 @@ HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant
 
 3. Click on the addon and press **Install** and wait until the addon is installed.
 
-## Configuration
+
+
+#### Configuration
 
 1. Click on **Configuration**
    - If you already have a previous valid configuration, click **⋮ → Edit as YAML** and paste your previously saved configuration. Otherwise, follow the instructions below.
@@ -54,20 +92,28 @@ HA_enoceanmqtt allows to easily have access to EnOcean devices in Home Assistant
 1. Start the addon by going to **Info** and click **Start**
 1. Wait till HA_enoceanmqtt starts and press **Log** to verify HA_enoceanmqtt started correctly.
 
-## Usage
 
-See [Usage](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Usage) for more information.
 
-## Issues
+## 👏🏻 Contributing
 
-Issues can be reported on the GitHub [issue tracker](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/issues).
+We welcome contributions from the community! If you would like to contribute to this project, please follow the guidelines below.
 
-## Versions
+### Ways to Contribute
 
-The addon version follow the versions of HA_enoceanmqtt.  
-The format is: \<HA_enoceanmqtt version\>-\<addon iteration\> where HA_enoceanmqtt version format is: \<major\>.\<minor\>.\<dev iteration\>  
-Example:  
-0.2-1 = first addon iteration for version 0.2 of HA_enoceanmqtt (stable version)  
-0.2.2-1 = first addon iteration for version 0.2.2 of HA_enoceanmqtt (dev version, second iteration from stable version 0.2)
+- Report bugs or issues by opening a new issue on our GitHub repository.
+- Suggest new features or improvements by opening a new issue on our GitHub repository.
+- Contribute code by forking the repository, making changes, and submitting a pull request.
 
-**Note**: `x.y.0` and `-0` are omitted.
+### Contribution Instructions
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b my-feature-branch`.
+3. Make the necessary changes and commit them: `git commit -am 'Add my new feature'`.
+4. Push your branch to your forked repository: `git push origin my-feature-branch`.
+5. Open a pull request against the main repository, describing the changes you made and why they should be merged.
+
+For more information on how to contribute, please visit [Contribution Guidelines](https://github.com/ChristopheHD/HA_enoceanmqtt-addon/wiki/Contributing).
+
+---
+ <div align="center">Built with ❤️ with <a href="https://github.com/luisvent/document_my_project">Document My Project</a></div>
+
