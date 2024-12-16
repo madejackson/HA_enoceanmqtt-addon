@@ -1,3 +1,10 @@
+## 0.1.33
+
+### What's New
+- TCP configuration by @ChristopheHD as requested in https://github.com/ChristopheHD/HA_enoceanmqtt-addon/issues/7
+
+**Full Changelog**: https://github.com/ChristopheHD/HA_enoceanmqtt-addon/compare/v0.1.32...v0.1.33
+
 ## 0.1.32
 
 ### What's Changed
