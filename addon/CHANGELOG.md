@@ -1,3 +1,9 @@
+## 0.1.35
+
+### What's Fixed
+
+- A5-07-01 : presence detection was not working
+
 ## 0.1.34
 
 ### What's New
