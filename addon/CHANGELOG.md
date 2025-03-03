@@ -1,3 +1,9 @@
+## 0.1.36
+
+### What's Changed
+
+- EEP D2-06-01 : rounding temperature sensor
+
 ## 0.1.35
 
 ### What's Fixed
