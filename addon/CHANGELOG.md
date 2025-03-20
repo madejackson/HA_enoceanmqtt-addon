@@ -4,6 +4,10 @@
 
 - EEP D2-06-01 : rounding temperature sensor
 
+### What's Fixed
+
+- Virtual rocker switch was broken since 0.1.35 in https://github.com/ChristopheHD/HA_enoceanmqtt-addon/issues/24
+
 ## 0.1.35
 
 ### What's Fixed
