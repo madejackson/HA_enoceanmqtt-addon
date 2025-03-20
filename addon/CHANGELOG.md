@@ -1,8 +1,9 @@
-## 0.1.36
+## 0.1.37
 
 ### What's New
 
 - EEP D2-14-41 thanks to @wronny
+- Blind central command for EEP A5-38-08 thanks to @bakkerv
 
 ## 0.1.36
 
