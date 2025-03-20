@@ -1,5 +1,11 @@
 ## 0.1.36
 
+### What's New
+
+- EEP D2-14-41 thanks to @wronny
+
+## 0.1.36
+
 ### What's Changed
 
 - EEP D2-06-01 : rounding temperature sensor
