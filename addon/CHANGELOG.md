@@ -1,3 +1,7 @@
+# ⚠️ Warning on update
+
+Update mechanism seems currently broken. Once you have updated, please rebuild the addon (bottom right button on addon page) to be sure to have the latest version of all dependencies.
+
 ## 0.1.37
 
 ### What's New
